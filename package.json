@@ -1,0 +1,30 @@
+{
+  "name": "ra16-lifecycle_crud-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitriyAg1967/ra16-lifecycle_crud-backend.git"
+  },
+  "author": "Dmitriy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DmitriyAg1967/ra16-lifecycle_crud-backend/issues"
+  },
+  "homepage": "https://github.com/DmitriyAg1967/ra16-lifecycle_crud-backend#readme",
+  "dependencies": {
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.14.1",
+    "koa-body": "^4.2.0",
+    "koa-combine-routers": "^4.0.2",
+    "koa-router": "^12.0.0",
+    "koa2-cors": "^2.0.6",
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0"
+  }
+}
